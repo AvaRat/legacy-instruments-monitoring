@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2023-12-29T18:36:38.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="jfAWJ99vWS942SO64uu2" version="22.1.16" type="device">
+  <diagram name="Strona-1" id="-HpzHWxIcB5qCtkX5x0C">
+    <mxGraphModel dx="2074" dy="1193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zz3g6GIx2NKUhmWEACpS-8" value="Azure Function" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry y="530" width="440" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Zz3g6GIx2NKUhmWEACpS-1" value="ESP-CAM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zz3g6GIx2NKUhmWEACpS-2" value="Legacy Instrument" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Zz3g6GIx2NKUhmWEACpS-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="260" as="sourcePoint" />
+            <mxPoint x="180" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zz3g6GIx2NKUhmWEACpS-5" value="Photo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="218" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zz3g6GIx2NKUhmWEACpS-6" value="10s interval polling&lt;br&gt;with deep sleep" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zz3g6GIx2NKUhmWEACpS-7" value="Devices manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zz3g6GIx2NKUhmWEACpS-9" value="&lt;ul&gt;&lt;li&gt;POST /image {device_id}&lt;/li&gt;&lt;li&gt;GET /init_device&lt;/li&gt;&lt;li&gt;GET /update {device_id}&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="210" y="570" width="230" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
